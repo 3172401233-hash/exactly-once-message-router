@@ -1,0 +1,10 @@
+{
+  "name": "exactly-once-message-router",
+  "version": "0.1.0",
+  "private": true,
+  "description": "消息路由核心：幂等键、分区顺序、租约消费和死信重投",
+  "main": "src/broker.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}
